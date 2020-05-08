@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Travelly is a travel agency website that helps you pick out your holiday vacation"
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="icons/airplane.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pattaya|Poppins:400,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Travelly | Travelling Agency</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <h1 id="logo">Travelly</h1>
+        <ul class="nav-link-list">
+          <li><a href="#locations" class="nav-link">Locations</a></li>
+          <li><a href="#benefits" class="nav-link">Benefits</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Travel Beyond Limits.</h2>
+      <h3>
+        Start your travel at an affordable price with Travelly <br />
+        Contact us now below.
+      </h3>
+      <button>Book now</button>
+    </section>
+
+    <section id="locations" class="locations">
+      <header class="locations-header">
+        <h2>The Perfect Travelling Experience</h2>
+        <h3>
+          We cover everything from picking the perfect hotel, <br />
+          flight and travelling destination
+        </h3>
+        <img src="/img/cloud.png" class="moving-cloud-1 cloud" />
+        <img src="/img/cloud.png" class="moving-cloud-2 cloud" />
+      </header>
+    </section>
+
+    <section id="benefits" class="benefits">
+      <header class="benefits-header">
+        <h2>The Perfect Travel</h2>
+        <h3>
+          We cover everything from picking the perfect hotel to flight and
+          destination.
+        </h3>
+      </header>
+
+      <div class="cards">
+        <div class="card">
+          <div class="card-head">
+            <img src="icons/route-solid.svg" alt="" />
+          </div>
+          <div class="card-body">
+            <h2>Travel</h2>
+            <h3>Travel in over 250 countries with no effort.</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <img src="icons/bed-solid.svg" alt="" />
+          </div>
+          <div class="card-body">
+            <h2>Sleep</h2>
+            <h3>Hotes located near popular areas.</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <img src="icons/plane-departure-solid.svg" alt="" />
+          </div>
+          <div class="card-body">
+            <h2>Fly</h2>
+            <h3>Flight included in every trip that you purchased.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <form action="https://formspree.io/xjvavqdo" method="POST">
+        <h2>Stay Updated</h2>
+
+        <div class="form-content">
+          <div class="name">
+            <label for="form-name">Name</label>
+            <input
+              id="form-name"
+              type="text"
+              placeholder="Name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="email">
+            <label for="form-email">Email</label>
+            <input
+              id="form-email"
+              type="text"
+              placeholder="Email"
+              name="_replyto"
+              required
+            />
+          </div>
+        </div>
+        <button class="form-button" type="submit" value="Send">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        <h5>Travelly &copy;</h5>
+        <ul>
+          <li>
+            <a href="#"><img src="/icons/twitter.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/icons/youtube.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="/icons/instagram.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
