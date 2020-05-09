@@ -101,7 +101,7 @@ nav ul {
 .hero {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url("./img/landing-page.jpg");
+    url("./img/landing-page-compressed.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -121,7 +121,7 @@ nav ul {
 .locations {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
-    url("./img/new-york-page.png");
+    url("./img/new-york-compressed.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -237,8 +237,8 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/contact-mountain.png),
-    linear-gradient(rgba(0, 0, 0, 0.5), white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(/img/contact-mountain-compressed.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
